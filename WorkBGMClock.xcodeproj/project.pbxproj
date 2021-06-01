@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F91515A4F4FF4C8DFCD3443 /* Pods_WorkBGMClock_WorkBGMClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B013B1953C405456C591251 /* Pods_WorkBGMClock_WorkBGMClockUITests.framework */; };
 		424C130F2639994D0020CE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C130E2639994D0020CE25 /* AppDelegate.swift */; };
 		424C13112639994D0020CE25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C13102639994D0020CE25 /* SceneDelegate.swift */; };
 		424C13132639994D0020CE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C13122639994D0020CE25 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		424C131B263999500020CE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424C1319263999500020CE25 /* LaunchScreen.storyboard */; };
 		424C1326263999510020CE25 /* WorkBGMClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C1325263999510020CE25 /* WorkBGMClockTests.swift */; };
 		424C1331263999510020CE25 /* WorkBGMClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C1330263999510020CE25 /* WorkBGMClockUITests.swift */; };
+		42FF2EDC263AED1900005D7D /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF2EDB263AED1900005D7D /* Form.swift */; };
+		5D3DC06ACEF248EF5B9AB53C /* Pods_WorkBGMClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D816B086BE067C9984941D /* Pods_WorkBGMClockTests.framework */; };
+		D677542489D15D037ADABE5E /* Pods_WorkBGMClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040778E46BDF001F7A4C2AB0 /* Pods_WorkBGMClock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040778E46BDF001F7A4C2AB0 /* Pods_WorkBGMClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkBGMClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F6FA76C265456DE9C7F291 /* Pods-WorkBGMClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClock.debug.xcconfig"; path = "Target Support Files/Pods-WorkBGMClock/Pods-WorkBGMClock.debug.xcconfig"; sourceTree = "<group>"; };
+		1B013B1953C405456C591251 /* Pods_WorkBGMClock_WorkBGMClockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkBGMClock_WorkBGMClockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424C130B2639994D0020CE25 /* WorkBGMClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkBGMClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424C130E2639994D0020CE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		424C13102639994D0020CE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		424C132C263999510020CE25 /* WorkBGMClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkBGMClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424C1330263999510020CE25 /* WorkBGMClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkBGMClockUITests.swift; sourceTree = "<group>"; };
 		424C1332263999510020CE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FF2EDB263AED1900005D7D /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		779CF348059FF2830AED3371 /* Pods-WorkBGMClock-WorkBGMClockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClock-WorkBGMClockUITests.release.xcconfig"; path = "Target Support Files/Pods-WorkBGMClock-WorkBGMClockUITests/Pods-WorkBGMClock-WorkBGMClockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B9D17C2C81A314F02BD5F54 /* Pods-WorkBGMClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClockTests.debug.xcconfig"; path = "Target Support Files/Pods-WorkBGMClockTests/Pods-WorkBGMClockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84E8011115562EDA23749BB8 /* Pods-WorkBGMClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClock.release.xcconfig"; path = "Target Support Files/Pods-WorkBGMClock/Pods-WorkBGMClock.release.xcconfig"; sourceTree = "<group>"; };
+		E3D816B086BE067C9984941D /* Pods_WorkBGMClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkBGMClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69D68941217C64A766788E4 /* Pods-WorkBGMClock-WorkBGMClockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClock-WorkBGMClockUITests.debug.xcconfig"; path = "Target Support Files/Pods-WorkBGMClock-WorkBGMClockUITests/Pods-WorkBGMClock-WorkBGMClockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F49674391546970E298C39B8 /* Pods-WorkBGMClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkBGMClockTests.release.xcconfig"; path = "Target Support Files/Pods-WorkBGMClockTests/Pods-WorkBGMClockTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D677542489D15D037ADABE5E /* Pods_WorkBGMClock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3DC06ACEF248EF5B9AB53C /* Pods_WorkBGMClockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F91515A4F4FF4C8DFCD3443 /* Pods_WorkBGMClock_WorkBGMClockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				424C1324263999510020CE25 /* WorkBGMClockTests */,
 				424C132F263999510020CE25 /* WorkBGMClockUITests */,
 				424C130C2639994D0020CE25 /* Products */,
+				FCE9F103E75E7607E2035B1E /* Pods */,
+				6BBB405E86A9E77BD9BB86CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				424C130E2639994D0020CE25 /* AppDelegate.swift */,
 				424C13102639994D0020CE25 /* SceneDelegate.swift */,
 				424C13122639994D0020CE25 /* ViewController.swift */,
+				42FF2EDB263AED1900005D7D /* Form.swift */,
 				424C13142639994D0020CE25 /* Main.storyboard */,
 				424C1317263999500020CE25 /* Assets.xcassets */,
 				424C1319263999500020CE25 /* LaunchScreen.storyboard */,
@@ -128,6 +148,29 @@
 			path = WorkBGMClockUITests;
 			sourceTree = "<group>";
 		};
+		6BBB405E86A9E77BD9BB86CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040778E46BDF001F7A4C2AB0 /* Pods_WorkBGMClock.framework */,
+				1B013B1953C405456C591251 /* Pods_WorkBGMClock_WorkBGMClockUITests.framework */,
+				E3D816B086BE067C9984941D /* Pods_WorkBGMClockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE9F103E75E7607E2035B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16F6FA76C265456DE9C7F291 /* Pods-WorkBGMClock.debug.xcconfig */,
+				84E8011115562EDA23749BB8 /* Pods-WorkBGMClock.release.xcconfig */,
+				E69D68941217C64A766788E4 /* Pods-WorkBGMClock-WorkBGMClockUITests.debug.xcconfig */,
+				779CF348059FF2830AED3371 /* Pods-WorkBGMClock-WorkBGMClockUITests.release.xcconfig */,
+				7B9D17C2C81A314F02BD5F54 /* Pods-WorkBGMClockTests.debug.xcconfig */,
+				F49674391546970E298C39B8 /* Pods-WorkBGMClockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 424C1335263999510020CE25 /* Build configuration list for PBXNativeTarget "WorkBGMClock" */;
 			buildPhases = (
+				C2AB7D695716E35B40718059 /* [CP] Check Pods Manifest.lock */,
 				424C13072639994D0020CE25 /* Sources */,
 				424C13082639994D0020CE25 /* Frameworks */,
 				424C13092639994D0020CE25 /* Resources */,
+				9AE26E56C16B5A2EAD1A04CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 424C1338263999510020CE25 /* Build configuration list for PBXNativeTarget "WorkBGMClockTests" */;
 			buildPhases = (
+				473532A60FF1D98A6D58B2C7 /* [CP] Check Pods Manifest.lock */,
 				424C131D263999510020CE25 /* Sources */,
 				424C131E263999510020CE25 /* Frameworks */,
 				424C131F263999510020CE25 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 424C133B263999510020CE25 /* Build configuration list for PBXNativeTarget "WorkBGMClockUITests" */;
 			buildPhases = (
+				8D908A62CE4B32AE0C2DC459 /* [CP] Check Pods Manifest.lock */,
 				424C1328263999510020CE25 /* Sources */,
 				424C1329263999510020CE25 /* Frameworks */,
 				424C132A263999510020CE25 /* Resources */,
+				3B3D1F3EAE1D98F1C80ED569 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B3D1F3EAE1D98F1C80ED569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock-WorkBGMClockUITests/Pods-WorkBGMClock-WorkBGMClockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock-WorkBGMClockUITests/Pods-WorkBGMClock-WorkBGMClockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock-WorkBGMClockUITests/Pods-WorkBGMClock-WorkBGMClockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473532A60FF1D98A6D58B2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkBGMClockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D908A62CE4B32AE0C2DC459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkBGMClock-WorkBGMClockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE26E56C16B5A2EAD1A04CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock/Pods-WorkBGMClock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock/Pods-WorkBGMClock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkBGMClock/Pods-WorkBGMClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AB7D695716E35B40718059 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkBGMClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		424C13072639994D0020CE25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 				424C13132639994D0020CE25 /* ViewController.swift in Sources */,
 				424C130F2639994D0020CE25 /* AppDelegate.swift in Sources */,
 				424C13112639994D0020CE25 /* SceneDelegate.swift in Sources */,
+				42FF2EDC263AED1900005D7D /* Form.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,10 +585,12 @@
 		};
 		424C1336263999510020CE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F6FA76C265456DE9C7F291 /* Pods-WorkBGMClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = WorkBGMClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,17 +599,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.WorkBGMClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning WorkBGMClock";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		424C1337263999510020CE25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E8011115562EDA23749BB8 /* Pods-WorkBGMClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = WorkBGMClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,13 +621,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.WorkBGMClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning WorkBGMClock";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		424C1339263999510020CE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9D17C2C81A314F02BD5F54 /* Pods-WorkBGMClockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +652,7 @@
 		};
 		424C133A263999510020CE25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49674391546970E298C39B8 /* Pods-WorkBGMClockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		424C133C263999510020CE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69D68941217C64A766788E4 /* Pods-WorkBGMClock-WorkBGMClockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		424C133D263999510020CE25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779CF348059FF2830AED3371 /* Pods-WorkBGMClock-WorkBGMClockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
