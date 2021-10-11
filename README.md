@@ -8,7 +8,7 @@
 
 ## 使用言語・技術
 
-Swift,Xcode,CocoaPods  
+Swift,Xcode,CocoaPods,OpenWeatherMap  
 
 ## 使用ライブラリ
 
