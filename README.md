@@ -4,7 +4,15 @@
 
 ## アプリケーション概要
 
-作業中に役立つ機能を多数搭載した時計アプリ  
+作業中に役立つ機能を多数搭載した時計アプリ 
+
+## 使用言語・技術
+
+Swift,Xcode,CocoaPods  
+
+## 使用ライブラリ
+
+Eureka,Cartography,SCLAlertView,MarqueeLabel,Alamofire,SwiftyJSON  
 
 ## 背景
 
